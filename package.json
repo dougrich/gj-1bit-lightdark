@@ -1,7 +1,7 @@
 {
-  "name": "@dougrich/gamejam-template",
-  "version": "0.1.8",
-  "description": "Gamejam template",
+  "name": "@dougrich/gj-1bit-lightdark",
+  "version": "0.1.0",
+  "description": "gj-1bit-lightdark",
   "main": "index.js",
   "scripts": {
     "test": "standard && node --test ./src/*.test.js",
