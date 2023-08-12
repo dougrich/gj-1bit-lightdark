@@ -1,0 +1,30 @@
+{
+  "name": "@dougrich/gamejam-template",
+  "version": "0.1.8",
+  "description": "Gamejam template",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node --test ./src/*.test.js",
+    "fix": "standard --fix",
+    "prepare": "husky install .scripts",
+    "commitlint": "commitlint --edit",
+    "standard-version": "standard-version",
+    "webpack": "webpack",
+    "dev": "webpack serve"
+  },
+  "author": "dougrich",
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "commitlint": "^17.7.1",
+    "html-webpack-plugin": "^5.5.3",
+    "husky": "^8.0.3",
+    "standard": "^17.1.0",
+    "standard-version": "^9.5.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
