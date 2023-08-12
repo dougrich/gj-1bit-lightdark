@@ -1,6 +1,6 @@
 {
   "name": "@dougrich/gj-1bit-lightdark",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "gj-1bit-lightdark",
   "main": "index.js",
   "scripts": {
